@@ -42,7 +42,7 @@ curl -X POST https://sitescope.example/api/admin/robot-accounts \
 #    (admin panel → project members), so it is allowed to upload.
 ```
 
-## End-to-end smoke test (plan §2.4 — do this before any robot code)
+## End-to-end smoke test (do this before any robot code)
 
 ```python
 from sitescope_client import SiteScopeClient
@@ -87,8 +87,3 @@ metadata storage are all working — the bridge is proven. From there, Phase 1b
 - **Waypoints**: `get_waypoints()` reads the local JSON until the IFC waypoint
   API (`GET /api/projects/{slug}/ifc/waypoints?phase=`) lands; the output shape
   is identical so the mission scheduler is source-agnostic.
-# robot
-# robot
-# robot
-# robot
-# robot

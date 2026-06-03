@@ -1,0 +1,8 @@
+{
+  "_comment": "Manual waypoint config used until the IFC waypoint API is available (plan §3.4). Coordinates are in the Nav2 map frame; read them in RViz2 by placing the robot at each room centre and reading /odom, or with the 2D Goal Pose tool on the GMapping SLAM map. room_slug must match an existing SiteScope room slug in the project.",
+  "waypoints": [
+    { "room_slug": "ground-floor", "name": "Ground Floor", "x": 0.0,  "y": 0.0,  "yaw": 0.0, "phase": 1 },
+    { "room_slug": "room-101",     "name": "Room 101",     "x": 4.2,  "y": 1.8,  "yaw": 1.57, "phase": 1 },
+    { "room_slug": "room-102",     "name": "Room 102",     "x": 8.6,  "y": 1.8,  "yaw": 1.57, "phase": 2 }
+  ]
+}
